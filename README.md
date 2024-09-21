@@ -49,7 +49,7 @@ SELECT Branch_no, COUNT(*) AS Total_Employees FROM Employee GROUP BY Branch_no;
 
 SELECT c.Customer_name, i.Issued_book_name, i.Issue_date FROM IssueStatus i
 JOIN Customer c ON i.Issued_cust = c.Customer_Id
-WHERE i.Issue_date >= '2022-06-01' AND i.Issue_date < '2022-07-01';
+WHERE i.Issue_date >= '2023-06-01' AND i.Issue_date < '2023-07-01';
 
 ![Q8](https://github.com/user-attachments/assets/efd034c4-fee1-4e68-aa76-d73a85c834d3)
 
